@@ -3,12 +3,13 @@ import React from 'react';
 
 type Props = {
   children: React.ReactNode;
-}
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+};
 
-export function Button({children}: Props) {
+export function Button({ children , onClick }: Props) {
   return (
     <div className={styles['container']}>
-     <button className={styles['button']}>{children}</button>
+      <button onClick={onClick} className={styles['button']}>{children}</button>
     </div>
   );
 }
