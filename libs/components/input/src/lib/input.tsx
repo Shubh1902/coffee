@@ -4,7 +4,7 @@ export function Input({label}: { label: string }) {
   return (
     <div className={styles['container']}>
       <label>{label}</label>
-      <input className={styles['input']}></input>
+      <input type="text"></input>
     </div>
   );
 }
