@@ -99,7 +99,10 @@
     }
   },
   "release": {
+    "projects": ["libs/components/*"],
+    "projectsRelationship": "independent",
     "version": {
+      "conventionalCommits": true,
       "preVersionCommand": "npx nx run-many -t build"
     }
   }
