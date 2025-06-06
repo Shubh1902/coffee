@@ -4,10 +4,22 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/coffee-e2e"
+      "path": "./libs/components/button"
     },
     {
-      "path": "./apps/coffee"
+      "path": "./libs/components/input"
+    },
+    {
+      "path": "./libs/components/card"
+    },
+    {
+      "path": "./libs/components/radio"
+    },
+    {
+      "path": "./apps/playground-e2e"
+    },
+    {
+      "path": "./apps/playground"
     }
   ]
 }
